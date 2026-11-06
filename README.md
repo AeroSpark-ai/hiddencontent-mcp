@@ -1,13 +1,15 @@
 # HiddenContent — MCP server downloads
 
-**Check a document for hidden text before your agent reads it.**
+**Detects hidden text in PDF, Word, Excel, PowerPoint, RTF and HTML files that a person can’t see but an AI reads: white-on-white text, tiny fonts, off-page text, invisible Unicode, hidden layers.**
 
-A document can carry text a person will never see — white on white, sub-readable
-font sizes, content positioned off the page, text underneath an image, invisible
-codepoints. A model reading that document sees all of it. This MCP server checks
-a file first and tells your agent what a human would actually see.
+Run it before your agent reads a document. It checks the file itself, tells your
+agent what a person would actually see, and shows you each hidden passage, where
+it sits and the trick behind it. It also reads email (.eml), plain text and the
+older Office formats (.doc, .xls, .ppt).
 
-Works on PDF, DOCX, XLSX, PPTX, RTF, HTML, email and the legacy Office formats.
+- [Every technique it detects, one page each](https://hiddencontent.ai/techniques/)
+- [Real cases: hidden text read by AI, in the wild](https://hiddencontent.ai/in-the-wild/)
+- [How-to guides: checking a PDF, a Word file, a résumé and more](https://hiddencontent.ai/guides/)
 
 ## Install
 
